@@ -1,0 +1,4 @@
+.dart_tool/
+manifest_only/pubspec.lock
+sbom.json
+github_support_request.md

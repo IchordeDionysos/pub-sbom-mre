@@ -1,0 +1,13 @@
+name: with_lockfile
+description: Case A - pubspec.yaml with a committed pubspec.lock next to it.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  http: ^1.2.0        # the only direct runtime dependency
+
+dev_dependencies:
+  lints: ^5.0.0       # the only direct dev dependency
