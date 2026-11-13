@@ -10,7 +10,7 @@ The information is available in the source: `pubspec.lock` states for every pack
 
 **Minimal reproduction**
 
-Repository: https://github.com/<owner>/pub-sbom-mre
+Repository: https://github.com/IchordeDionysos/pub-sbom-mre
 
 `with_lockfile/pubspec.yaml` declares exactly two dependencies, `http: ^1.2.0` (main) and `lints: ^5.0.0` (dev). The committed `pubspec.lock` (from `dart pub get`) marks those two as `direct main` / `direct dev` and the other 10 packages as `transitive`.
 
